@@ -1,0 +1,70 @@
+.img
+{
+    margin-left : "1000px";
+    margin-top: "5px";
+    
+}
+
+a:hover
+{
+    color:#056674;
+}
+.section
+{
+    background-color:#e0ece4;
+}
+.hi
+{
+    font-family: 'Sacramento', cursive;
+    color:#ff4b5c;
+}
+.h2
+{
+    font-family: 'Grandstander', cursive;
+    color:#e37e40;
+}
+a:active
+{
+    color:#ff4b5c;
+}
+.h
+{
+    font-family: 'Long Cang', cursive;
+    color:#66bfbf;
+}
+.e
+{
+    color:#ff4b5c;
+}
+.t
+{
+        color:#66bfbf;
+        display:absolute;
+}
+.q
+{
+    display:absolute;
+}
+.p
+{
+    font-family: 'Lobster', cursive;
+    color: #81b214;
+}
+.section2
+{
+    background-color:lightgrey;
+}
+.bmi
+{
+    font-family: 'Alfa Slab One', cursive;
+    color: #24a19c;
+}
+a
+{
+    color:#66bfbf;
+}
+code
+{
+    color:#ffe0f7;
+}
+    
