@@ -63,8 +63,8 @@ a
 {
     color:#66bfbf;
 }
-code
+.responsive
 {
-    color:#ffe0f7;
-}
-    
+    max-width: 100%;
+    height: auto;
+}    
