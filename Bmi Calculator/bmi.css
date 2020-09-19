@@ -1,0 +1,34 @@
+body{
+background-color:#faf3dd;
+}
+.heading
+{
+    color:#6886c5 ;
+    font-family: 'Lato', sans-serif;
+}
+.n
+{
+    background-color:#cbaf87;
+}
+.drop
+{
+    background-color:#bae5e5;
+}
+input[type=number]
+{
+    background-color:#ecfbfc;
+    color:#0d7377;
+}
+::placeholder
+{
+    color: #c72c41;
+}
+.b
+{
+    margin-top:10px;
+}
+html
+{
+
+    scroll-behavior: smooth;
+}
