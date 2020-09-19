@@ -1,0 +1,29 @@
+body{
+    background-color:#ffb0b0 ;
+}
+.nav
+{
+    background-color: #ffb0b0;
+}
+.button
+{
+    margin-bottom: 100px;
+    margin-top: 10px;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+.result
+{
+    margin-bottom: 200px;
+    margin-top: 10px;
+}
+.drop
+{
+    background-color:#f5d0d0;
+}
+.a:hover
+{
+    background-color: #f54291;
+}
