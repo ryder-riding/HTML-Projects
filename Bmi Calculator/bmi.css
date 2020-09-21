@@ -32,3 +32,16 @@ html
 
     scroll-behavior: smooth;
 }
+.tab
+{
+    margin-bottom: 200px;
+    margin-top: 10px;
+}    
+.my_tab
+{
+    margin-top: 100px;
+}
+.a:hover
+{
+    background-color: #1aa6b7;
+}

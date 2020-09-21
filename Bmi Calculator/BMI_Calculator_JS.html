@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="bmi.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Parisienne&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/62fea2acf3.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <script src="Bmi.js"></script>
 </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-light n">
@@ -36,7 +39,7 @@
                   Dropdown
                 </a>
                 <div class="dropdown-menu drop" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#BMI">Calculate BMI</a>
+                  <a class="dropdown-item a" href="#BMI">Calculate BMI</a>
             </ul>
           </div>
         </nav>
@@ -68,66 +71,35 @@
           </a>
         </div>
       <section id="BMI">
-        <div class="col-lg-4"></div>
-        <div class="col-lg-4">
-          <div class="input-group mb-3">
-            <input style="margin-top: 10px;" type="number" class="form-control" id="h" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Enter your height">
-          </div>
-          <br>
-          <div class="input-group mb-3">
-            <input style="margin-top: -20px;" type="number" class="form-control" id="w" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Enter your weight">
-          </div>
-        </div>
-        <div class="col-lg-4"></div>
-        <button class="btn btn-outline-warning b" style="margin-top:-20px;width:150px; height:30px; margin-left: 100px;" onclick="BMI()">
-          Calculate BMI
-        </button> 
-        
-        <h3>
+       <div class="row">
+         <div class="col-lg-4"></div>
+         <div class="col-lg-4">
+           <div class="form-group my_tab">
+              <input type="number" id="height" name="" class="form-control" placeholder="Enter Your Height">
+           </div>
 
-        </h3>
+           <div class="form-group ">
+            <input type="number" id="weight" name="" class="form-control" placeholder="Enter Your Weight">
+           </div>
+         </div>
+         <div class="col-lg-4"></div>
+       </div>
 
-        <h4 id="result">
+       <div class="row">
+         <div class="col-lg-4"></div>
+         <div class="col-lg-4">
+           <button class="btn btn-outline-primary" onclick="BMI()">
+             Calculate
+           </button>
+         </div>
+         <div class="col-lg-4"></div>
+       </div>
 
-        </h4>
+       <div class="row tab">
+         <div class="col-lg-12 text-center r" id="result">
+
+         </div>
+       </div>
       </section> 
-
-      <script>
-          function BMI()
-          {
-            var w = Number(document.getElementById("w").value);
-            var h = Number(document.getElementById("h").value);
-
-            var result = bmi(w,h) 
-            result = Math.round(result)
-            var r = "Your Bmi ="+result
-            document.querySelectorAll("h3")[0].innerHTML = r;
-            
-            if(result < 18)
-            {
-              var u = "You are underweight";
-              document.querySelectorAll("h3")[0].innerHTML = u;
-            }
-
-            else if(result >18 && result <25)
-            {
-              var u = "You are underweight"
-              document.getElementById("result")=u;
-            }
-            else
-            {
-              var u = "You are underweight"
-              document.getElementById("result")=u;
-            }
-          }
-
-          function bmi(w,h)
-          {
-            h = Math.pow(h,2);
-            var bmi = w/h;
-
-            return bmi;
-          }
-      </script>
     </body>
 </html>
